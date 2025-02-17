@@ -47,7 +47,7 @@ export default defineConfig((/* ctx */) => {
 
       // rebuildCache: true, // rebuilds Vite/linter/etc cache on startup
 
-       publicPath: '/gymApp/',
+      //publicPath: '/gymApp/',
       // analyze: true,
       // env: {},
       // rawDefine: {}
