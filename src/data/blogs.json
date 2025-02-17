@@ -1,0 +1,33 @@
+{
+    "blogs": [
+      {
+        "id": 1,
+        "title": "Getting Started with Vue 3",
+        "content": "Vue 3 brings exciting new features including the Composition API, which provides a more flexible way to organize component logic. The new version also includes improved TypeScript support, better performance through proxy-based reactivity, and multiple root elements support...",
+        "author": "John Doe",
+        "date": "2025-01-15"
+      },
+      {
+        "id": 2,
+        "title": "Mastering Quasar Framework",
+        "content": "Quasar Framework is a Vue-based framework that allows developers to quickly create responsive websites, PWAs, SSR applications, and more. With its rich component library and built-in features, Quasar significantly speeds up development...",
+        "author": "Jane Smith",
+        "date": "2025-01-20"
+      },
+      {
+        "id": 3,
+        "title": "Web Development Best Practices",
+        "content": "Following web development best practices is crucial for maintaining clean, scalable code. This includes proper code organization, efficient state management, and implementing responsive design patterns...",
+        "author": "Mike Johnson",
+        "date": "2025-01-25"
+      },
+      {
+        "id": 4,
+        "title": "Modern CSS Techniques",
+        "content": "Modern CSS has evolved with powerful features like Grid, Flexbox, and Custom Properties. These tools provide developers with more control over layouts and styling while reducing the complexity of stylesheets...",
+        "author": "Sarah Wilson",
+        "date": "2025-01-30"
+      }
+    ]
+  }
+  

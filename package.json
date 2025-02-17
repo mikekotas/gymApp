@@ -1,0 +1,32 @@
+{
+  "name": "qusar-gym",
+  "version": "0.0.1",
+  "description": "a gym booking app",
+  "productName": "quasar_gym_mkotas",
+  "author": "avweb-eu <mike.kotantakis@gmail.com>",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0",
+    "dev": "quasar dev",
+    "build": "quasar build",
+    "postinstall": "quasar prepare",
+    "deploy": "npm run build && cd dist/spa && git init && git add -A && git commit -m 'deploy' && git push -f https://github.com/mikekotas/gymApp.git main:gh-pages"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.16.4",
+    "quasar": "^2.16.0",
+    "vue": "^3.4.18",
+    "vue-router": "^4.0.0"
+  },
+  "devDependencies": {
+    "@quasar/app-vite": "^2.0.0",
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.14"
+  },
+  "engines": {
+    "node": "^28 || ^26 || ^24 || ^22 || ^20 || ^18",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
