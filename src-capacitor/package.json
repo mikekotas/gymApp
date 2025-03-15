@@ -1,6 +1,6 @@
 {
-  "name": "qusar-gym",
-  "version": "0.0.1",
+  "name": "your-app-name",
+  "version": "1.0.1",
   "description": "a gym booking app",
   "author": "avweb-eu <mike.kotantakis@gmail.com>",
   "private": true,

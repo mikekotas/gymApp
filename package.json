@@ -1,6 +1,6 @@
 {
-  "name": "qusar-gym",
-  "version": "0.0.1",
+  "name": "your-app-name",
+  "version": "1.0.1",
   "description": "a gym booking app",
   "productName": "quasar_gym_mkotas",
   "author": "avweb-eu <mike.kotantakis@gmail.com>",
@@ -9,11 +9,16 @@
   "scripts": {
     "test": "echo \"No test specified\" && exit 0",
     "dev": "quasar dev",
+    "devAndroid": "quasar dev -m capacitor -T android",
     "build": "quasar build",
+    "buildAndroid": "quasar build -m capacitor -T android",
     "postinstall": "quasar prepare",
     "deploy": "npm run build && cd dist/spa && git init && git add -A && git commit -m 'deploy' && git push -f https://github.com/mikekotas/gymApp.git main:gh-pages"
   },
   "dependencies": {
+    "@capacitor-community/file-opener": "^7.0.1",
+    "@capacitor/app": "^7.0.0",
+    "@capacitor/filesystem": "^7.0.0",
     "@quasar/extras": "^1.16.4",
     "quasar": "^2.16.0",
     "vue": "^3.4.18",
